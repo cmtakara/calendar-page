@@ -106,7 +106,7 @@ function CalendarControl() {
                 calendarControl.calMonthName[calendar.getMonth()]
               } ${calendar.getFullYear()}? \n This will take you to a new page.`;
               if (confirm(text) == true) {
-                window.location.href=`./pages/${clickedDay}.html`;
+                window.location.href=`./lessonPages/${clickedDay}.html`;
               }
         } else {
             let lessonLabel = document.querySelector(
