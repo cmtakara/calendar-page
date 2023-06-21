@@ -5,7 +5,7 @@
 // taken and adapted from
 // https://alvarotrigo.com/blog/css-calendar/
 // https://codepen.io/alvarotrigo/pen/bGLpROa
-let lessonsPlanned = ['5Jun2023', '7Jun2023', '12Jun2023', '14Jun2023'];
+let lessonsPlanned = ['5Jun2023', '7Jun2023', '12Jun2023', '14Jun2023', '21Jun2023'];
 
 function CalendarControl() {
     const calendar = new Date();
