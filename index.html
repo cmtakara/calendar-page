@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <title>HSE Calendar Page</title>
 </head>
@@ -16,7 +16,8 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">ICON</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -30,15 +31,18 @@
             </li>
 
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
                 HSE pages
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="./subjectPages/math.html">HSE Math</a></li>
-                <li><a class="dropdown-item" href="./subjectPages/english.html">HSE English</a></li>                
+                <li><a class="dropdown-item" href="./subjectPages/english.html">HSE English</a></li>
                 <li><a class="dropdown-item" href="./subjectPages/socialStudies.html">HSE Social Studies</a></li>
                 <li><a class="dropdown-item" href="./subjectPages/science.html">HSE Science</a></li>
-                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
                 <li><a class="dropdown-item" href="#">All Subjects Module List</a></li>
               </ul>
             </li>
@@ -65,24 +69,24 @@ https://codepen.io/alvarotrigo/pen/MWQyvbd -->
         <!-- If day is Monday, topics are Math and Science
         If day is Wednesday, topics are English and Social Studies -->
         <div class="day">next class</div>
-        <div class="num-date">28</div>
+        <div class="num-date">10</div>
         <!--num-date -->
-        <div class="day">June</div>
-        <div class="day">WEDNESDAY <br /><br /> </div>
+        <div class="day">July</div>
+        <div class="day">MONDAY <br /><br /> </div>
         <!--day -->
-        <div class="class-topics">English
+        <div class="class-topics">Math
           <br />
           <ul>
-            <li>Understanding Motivation</li>
+            <li>Fraction Review</li>
           </ul>
 
         </div>
         <!--class-topics -->
         <hr class="event-line" />
-        <div class="class-topics">Social Studies
+        <div class="class-topics">Science
           <br />
           <ul>
-            <li> American Revolutionary Period</li>
+            <li> Organization of Life </li>
           </ul>
         </div>
         <!--class-topics -->
@@ -101,14 +105,31 @@ https://codepen.io/alvarotrigo/pen/MWQyvbd -->
     <div class="col-3 col-s-12">
       <div class="aside" style="overflow: scroll; max-height: 600px">
 
+        <h2><a href="./lessonPages/12Jul2023.html">Wednesday 7/12/2023</a></h2>
+        <p>English and Social Studies Topics</p>
+        <ul>
+          <li>English: Understanding Motivation</li>
+          <li>Social Studies: American Revolutionary Period</li>
+        </ul>
+        <p>Next week: Understanding Motivation and American Revolution</p>
+
+        <h2><a href="./lessonPages/10Jul2023.html">Monday 7/10/2023</a></h2>
+        <p>Math and Science topics</p>
+        <ul>
+          <li>Math: fraction review</li>
+          <li>Science: organization of life<br />
+        </ul>
+        <p>Next week: fraction review and organization of life</p>
+
         <h2>Wednesday 7/5/2023</h2>
         <h4>No class: Holiday</h4>
 
         <h2>Monday 7/3/2023</h2>
         <h4>No class: Holiday</h4>
-        
+
         <h2><a href="./lessonPages/28Jun2023.html">Wednesday 6/28/2023</a></h2>
         <p>English and Social Studies Topics</p>
+        <p>Moved to 12July2023 due to attendance and students taking practice test</p>
         <ul>
           <li>English: Understanding Motivation</li>
           <li>Social Studies: American Revolutionary Period</li>
@@ -133,15 +154,15 @@ https://codepen.io/alvarotrigo/pen/MWQyvbd -->
 
         <h2>Monday 6/19/2023</h2>
         <h4>No class: Holiday</h4>
-        
+
         <h2><a href="./lessonPages/14Jun2023.html">Wednesday 6/14/2023</a></h2>
         <p>English and Social Studies Topics</p>
         <strong>Canceled due to weather</strong>
         <ul>
           <span style='text-decoration: line-through'>
-          <li>English: Inferring Character</li>
-          <li>Social Studies: Principles Contributing to American Democracy</li>
-        </span>
+            <li>English: Inferring Character</li>
+            <li>Social Studies: Principles Contributing to American Democracy</li>
+          </span>
         </ul>
         <p>Next week: Understanding Motivation and American Revolution</p>
 
@@ -165,18 +186,20 @@ https://codepen.io/alvarotrigo/pen/MWQyvbd -->
         <ul>
           <li>Math: Box-and-whisker plots</li>
           <li>Science: <span style='text-decoration: line-through'>simple machine</span> &#8986 <br />
-            <span>&#40</span>go back to it next week<span>&#41</span></li>
+            <span>&#40</span>go back to it next week<span>&#41</span>
+          </li>
         </ul>
       </div>
     </div>
   </div>
 
   <div class="footer">
-    <h1>You can get to the lesson plan for a day by clicking on the day in the month calendar or by clicking on the day in the listing on the left.</h1>
+    <h1>You can get to the lesson plan for a day by clicking on the day in the month calendar or by clicking on the day
+      in the listing on the left.</h1>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-  crossorigin="anonymous"></script>
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
   <script src="script.js"></script>
 </body>
 
