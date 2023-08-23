@@ -6,7 +6,9 @@
 // https://alvarotrigo.com/blog/css-calendar/
 // https://codepen.io/alvarotrigo/pen/bGLpROa
 let lessonsPlanned = ['5Jun2023', '7Jun2023', '12Jun2023', '14Jun2023', '21Jun2023', '26Jun2023', '28Jun2023', 
-'10Jul2023', '12Jul2023', '24Jul2023', '26Jul2023', '31Jul2023', '2Aug2023', '7Aug2023'];
+'10Jul2023', '12Jul2023', '24Jul2023', '26Jul2023', '31Jul2023', '2Aug2023', '7Aug2023'
+, '16Aug2023', '23Aug2023'];
+// missing: '9Aug2023', '14Aug2023', '21Aug2023'
 
 function CalendarControl() {
     const calendar = new Date();
