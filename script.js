@@ -7,8 +7,10 @@
 // https://codepen.io/alvarotrigo/pen/bGLpROa
 let lessonsPlanned = ['5Jun2023', '7Jun2023', '12Jun2023', '14Jun2023', '21Jun2023', '26Jun2023', '28Jun2023', 
 '10Jul2023', '12Jul2023', '24Jul2023', '26Jul2023', '31Jul2023', '2Aug2023', '7Aug2023'
-, '16Aug2023', '23Aug2023', '28Aug2023', '30Aug2023'];
+, '16Aug2023', '23Aug2023', '28Aug2023', '30Aug2023',
+'20Sep2023'];
 // missing: '9Aug2023', '14Aug2023', '21Aug2023'
+// 06Sep, 11Sep, 13Sep
 
 function CalendarControl() {
     const calendar = new Date();
@@ -107,7 +109,7 @@ function CalendarControl() {
             console.log(`go to ${clickedDay}.html`)
             text = `Do you want to see the lessons for ${e.target.textContent} ${
                 calendarControl.calMonthName[calendar.getMonth()]
-              } ${calendar.getFullYear()}? \n This will take you to a new page.`;
+              } ${calendar.getFullYear()}? \n `;
               if (confirm(text) == true) {
                 window.location.href=`./lessonPages/${clickedDay}.html`;
               }
